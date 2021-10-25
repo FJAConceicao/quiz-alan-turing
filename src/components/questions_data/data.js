@@ -1,71 +1,111 @@
 export default [
     {
-        question: 'Em que ano Alan Turing nasceu ?',
+        question: 'Em que país e ano Alan Turing nasceu ?',
         answers: [
-            '1910',
-            '1911',
-            '1912',
-            '1913'
+            'Estados Unidos - 1910',
+            'Espanha - 1911',
+            'Inglaterra - 1912',
+            'África do Sul - 1913'
         ],
         correct: 3
     },
     {
-        question: 'JSX is typesafe?',
+        question: 'Em qual universidade Alan Turing se graduou ?',
         answers: [
-            'True',
-            'False',
-            'None of the Above',
-            'Cannot Be Determined'
+            'Universidade de Cambridge',
+            'Universidade de Stanford',
+            'Universidade Harvard',
+            'Universidade de Oxford'
         ],
         correct: 1
     },    
     {
-        question: 'React merges the object you provide into the current state using which of the following',
+        question: 'Qual ponto da teoria da computação está mais próximo de um computador ?',
         answers: [
-            'setState()',
-            'State()', 
-            'getState()', 
-            'None of the Above'
+            'Um “procedimento mecânico”(algoritmo) é uma tarefa que pode ser executada por uma Máquina de Turing',
+            'Máquina de Turing Universal capaz de simular o funcionamento de qualquer outra máquina de Turing', 
+            'Existência de problemas que não são algoritmicamente solúveis, tal como o Problema da Parada', 
+            'O modelo de Máquinas de Turing é equivalente ao de Alonso Church.'
         ],    
-        correct: 1
+        correct: 2
     },    
     {
-        question: 'Arbitrary inputs of components are called?',
+        question: 'Em seu doutorado, o que Alan turing construiu ?',
         answers: [
-            'Keys',
-            'Props', 
-            'Elements', 
-            'Ref'
+            'Máquina de cifras baseada em um mulplicador binário',
+            'Máquina universal de Turing', 
+            'Máquina para fazer análises de criptologia', 
+            'Máquina Bombe'
+        ],    
+        correct: 1
+    },
+    {
+        question: 'Em qual país a máquina enigma foi construida ?',
+        answers: [
+            'Alemanha',
+            'Holanda', 
+            'Japão', 
+            'Espanha'
+        ],    
+        correct: 1
+    },
+    {
+        question: 'Qual era o nome da máquina que Alan construiu para decifrar as mensagens da Enigma ?',
+        answers: [
+            'Bomba',
+            'A Máquina Enigma', 
+            'Bombe', 
+            'Máquina de costura'
+        ],    
+        correct: 3
+    },
+    {
+        question: 'Como Alan Turing contribuiu para a vitória dos aliados na Segunda Guerra Mundial ?',
+        answers: [
+            'Fazendo cálculos matemáticos',
+            'Com a construção de uma máquina capaz de decifrar códigos da Enigma', 
+            'Sendo professor em uma universidade', 
+            'Estudando criptologia'
         ],    
         correct: 2
     },
     {
-        question: '_____ can be done while more than one element needs to be returned from a component?',
+        question: 'Qual esporte Turing praticava quando era estudante universitário ?',
         answers: [
-            'Abstraction',
-            'Packing', 
-            'Insulation', 
-            'Wrapping'
-        ],    
-        correct: 4
-    },
-    {
-        question: 'Which of the following needs to be updated to achieve dynamic UI updates?',
-        answers: [
-            'State',
-            'Props', 
-            'Components', 
-            'None of the Above'
+            'Corrida',
+            'Futebol', 
+            'Natação', 
+            'Basquete'
         ],    
         correct: 1
     },
     {
-        question: 'Lifecycle methods are mainly used _____',
+        question: 'Qual foi o ano e a melhor distância percorrida por Turing em 2 horas, 46 minutos e 3 segundos ?',
         answers: [
-            'To keep track of event history',
-            'To enhance components', 
-            'Free up resources', 
-            'None of the Above'
+            '34 km - 1946',
+            '42 km - 1947', 
+            '45 km - 1948', 
+            '26 km - 1949'
+        ],    
+        correct: 2
+    },
+    {
+        question: 'Em qual das áreas abaixo, Alan Turing não fez contribuição ?',
+        answers: [
+            'Teoria da Computação',
+            'Computação Concorrente', 
+            'Redes Neurais', 
+            'Bioinformática'
+        ],    
+        correct: 2
+    },
+    {
+        question: 'Qual foi o motivo e ano de falecimento de Alan Turing ?',
+        answers: [
+            'Morte natural - 1952',
+            'Infarto - 1953', 
+            'Suicídio - 1954', 
+            'Câncer - 1955'
         ],    
         correct: 3
     }
